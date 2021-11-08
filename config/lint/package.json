@@ -1,0 +1,38 @@
+{
+  "name": "@ozcms/lint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prettier:fix": "prettier --write --check \"rules/**/*.{js,ts,jsx,tsx}\"",
+    "lint": "eslint \"rules/**/*.{js,ts,jsx,tsx}\"",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@emotion/eslint-plugin": "11.2.0",
+    "@typescript-eslint/eslint-plugin": "4.21.0",
+    "@typescript-eslint/parser": "4.21.0",
+    "eslint": "7.23.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-config-stylelint": "13.1.0",
+    "eslint-plugin-emotion": "11.0.0",
+    "eslint-plugin-filenames": "1.3.2",
+    "eslint-plugin-filenames-simple": "0.6.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prefer-arrow": "1.2.3",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-react": "7.23.2",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-react-perf": "3.3.0",
+    "eslint-plugin-sonarjs": "0.6.0",
+    "eslint-plugin-workspaces": "0.6.2",
+    "prettier": "2.2.1",
+    "stylelint": "13.12.0",
+    "stylelint-config-prettier": "8.0.2",
+    "stylelint-config-recommended": "4.0.0",
+    "typescript": "4.2.3"
+  }
+}

@@ -1,0 +1,30 @@
+module.exports = {
+  extends: ["plugin:node/recommended"],
+  plugins: ["import"],
+  rules: {
+    "node/no-unsupported-features/es-syntax": "off",
+    "node/no-unsupported-features/es-builtins": "off",
+    "node/no-unsupported-features/node-builtins": "off",
+    "node/no-unpublished-import": "off",
+    "node/no-missing-import": "off",
+    "import/extensions": [
+      "error",
+      "never",
+      {
+        js: "never",
+        jsx: "never",
+        ts: "never",
+        tsx: "never",
+        json: "always",
+        otf: "always",
+        svg: "always",
+        jpg: "always",
+        jpeg: "always",
+        png: "always",
+        web: "always",
+        server: "always",
+      },
+    ],
+    "import/no-cycle": "error",
+  },
+};
